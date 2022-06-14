@@ -1,0 +1,42 @@
+.frase-inicial
+{      
+    color:#ADD8E6; 
+    font-size:1.2rem;      
+    font-weight: bold;       
+    position:absolute;   
+    text-align:justify;   
+}
+
+@media screen and (min-width: 0)
+{
+    .frase-inicial
+    {
+        bottom: 0;
+        right: 0;         
+        padding:0 10px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .frase-inicial
+    {        
+        padding:0 10px;
+        right:0;
+        top: calc(40% + 130px);
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    .frase-inicial
+    {        
+        padding:0 20px;
+        right:0;
+        top: calc(40% + 140px);
+        width: 400px;
+    }
+}
+

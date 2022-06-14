@@ -1,0 +1,16 @@
+.minha-historia__paragrafo
+{
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+}
+
+.minha-historia__paragrafo--alinhamendo-baixo
+{
+    vertical-align: middle;
+}
+
+.minha-historia__paragrafo--display-inline-block
+{
+    display:inline-block;
+}
+

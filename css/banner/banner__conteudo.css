@@ -1,0 +1,28 @@
+.banner__conteudo
+{
+    display: block; 
+    position: absolute;   
+    text-align: center;   
+}
+
+@media screen and (min-width: 0)
+{
+    .banner__conteudo
+    {
+        left: calc((100% - 350px) / 2); /*centralizar horizontalmente o conteudo*/
+        top: calc((100% - 100px) / 2); /*centralizar verticalmente*/
+        height: 100px;        
+        width:350px;
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .banner__conteudo
+    {
+        left: calc((100% - 480px) / 2); /*centralizar horizontalmente o conteudo*/
+        top: calc((100% - 100px) / 2); /*centralizar verticalmente*/
+        height: 100px;        
+        width:480px;
+    }
+}

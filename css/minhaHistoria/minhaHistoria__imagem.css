@@ -1,0 +1,42 @@
+.minha-historia__imagem
+{
+    background-image: url('../../imagem/Yasmin.jpg');
+    background-position: center;
+    background-size:cover;
+    border-radius:100%;
+    
+    
+}
+
+
+
+@media screen and (min-width: 0)
+{
+    .minha-historia__imagem
+    {
+        height: 300px;
+        margin-right: 10px;
+        width: 300px;
+    }
+
+    .minha-historia__imagem + p /*não renderiza o primeiro paragrafo*/
+    {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .minha-historia__imagem
+    {
+        float:left;
+        height: 300px;
+        margin-right: 60px;
+        width: 300px;
+    }
+
+    .minha-historia__imagem + p
+    {
+        display:block;
+    }
+}

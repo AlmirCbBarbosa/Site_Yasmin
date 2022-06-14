@@ -1,0 +1,23 @@
+.historia-card__titulo
+{
+    bottom:10px;
+    font-size: 1.2rem;   
+    position: absolute;
+    left: 20px;
+}
+
+@media screen and (min-width: 0)
+{
+    .historia-card__titulo
+    {
+        display:block;
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .historia-card__titulo
+    {
+        display:none;
+    }
+}

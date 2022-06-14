@@ -1,0 +1,24 @@
+.historioteca__titulo
+{
+   
+    color: #8A2BE2;
+    text-align: center;
+}
+
+@media screen and (min-width: 0)
+{
+    .historioteca__titulo
+    {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    .historioteca__titulo
+    {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+}

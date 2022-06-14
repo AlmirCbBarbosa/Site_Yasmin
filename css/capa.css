@@ -1,0 +1,23 @@
+.capa
+{
+    background-image: url('../imagem/yasminParqueaAjustado.png');
+    background-repeat: no-repeat;       
+    background-size:cover;      
+    height:100vh;
+}
+
+@media screen and (min-width: 0px)
+{
+    .capa
+    {
+        background-position: top 0 left -260px; 
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .capa
+    {
+        background-position: top 0 left 50%; 
+    }
+}

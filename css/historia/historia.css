@@ -1,0 +1,34 @@
+.historia
+{
+   /*padding: 10px 240px;*/
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem #8080807a;
+        
+    padding:60px 20px;
+}
+
+
+@media screen and (min-width: 0)
+{
+    .historia
+    {
+        margin: 10px 2% 0 2%;
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .historia
+    {
+        margin: 10px 10% 0 10%;
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    .historia
+    {
+        margin: 10px 20% 0 20%;
+    }
+}

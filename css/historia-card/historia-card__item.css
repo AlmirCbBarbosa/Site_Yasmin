@@ -1,0 +1,16 @@
+.historia-card__item
+{
+    display: inline-block;
+    height: 200px;
+    list-style: none; 
+    margin: 0.5%; 
+    position: relative;  
+    width: 32%;
+}
+
+.historia-card__item:hover
+{
+    margin: 0.1%;
+    width:32.8%;
+    cursor: pointer;
+}

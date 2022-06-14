@@ -1,0 +1,28 @@
+.cabecalho-index
+{
+    background-color: #ffffff73;
+    border-radius: 5px;   
+    position: absolute;
+    right:0;    
+    top: 270px;
+    
+}
+
+@media screen and (min-width: 0)
+{
+    .cabecalho-index
+    {
+        padding: 0 0 0 5px;
+        width: 140px;
+    }
+}
+
+
+@media screen and (min-width: 960px)
+{
+    .cabecalho-index
+    {
+        padding: 0 10px;
+        width: 400px;
+    }
+}

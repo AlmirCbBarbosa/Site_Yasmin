@@ -1,0 +1,27 @@
+.banner__nome
+{    
+    color: #8B0000;         
+}
+
+@media screen and (min-width: 0)
+{
+    .banner__nome
+    {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 480px)
+{
+    .banner__nome
+    {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    .banner__nome
+    {
+        font-size: 4rem; 
+    }
+}

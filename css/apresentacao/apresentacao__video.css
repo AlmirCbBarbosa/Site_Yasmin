@@ -1,0 +1,7 @@
+.apresentacao__video
+{   
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+    display:block;
+    margin: 0 10%;
+    width:80%;
+}

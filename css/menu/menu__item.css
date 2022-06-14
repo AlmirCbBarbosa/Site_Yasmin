@@ -1,0 +1,16 @@
+.menu__item
+{
+    display:inline-block;
+    list-style: none; 
+       
+}
+
+.menu__item--reduzido
+{
+    margin: 0 0.5rem;
+}
+
+.menu__item--normal
+{
+    margin: 0 2rem;
+}

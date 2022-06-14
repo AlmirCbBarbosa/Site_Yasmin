@@ -1,0 +1,21 @@
+.historia-card__imagem
+{   
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    border: 2px solid black;
+    border-radius: 5px;    
+    height: 100%;    
+    width: 100%;
+}
+
+.historia-card__imagem:hover ~ .historia-card__titulo /*quando o mouse passar por cima da imagem o título aparece*/
+{
+    display:block;
+}
+
+.histori-card__imagem--imagem-ImaosFelizes
+{
+    background-image: url('../../imagem/capaIrmaosFelizes.png');
+}
+

@@ -1,0 +1,22 @@
+.menu__link
+{   
+    font-weight: bold; 
+    position: relative;
+    text-decoration: none;    
+    transition: color 0.5s;
+}
+
+.menu__link--roxo
+{
+    color: #ff00ff;
+}
+
+.menu__link--blue-violet
+{
+    color:blueviolet;
+}
+
+.menu__link--blue-violet:hover
+{
+    color: #ff00ff;
+}

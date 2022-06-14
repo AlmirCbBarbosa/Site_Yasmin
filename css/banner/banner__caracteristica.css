@@ -1,0 +1,29 @@
+.banner__caracteristica
+{
+    color:#00008B;     
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0)
+{
+    .banner__caracteristica
+    {
+        font-size: 0.6rem; 
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .banner__caracteristica
+    {
+        font-size: 0.9rem; 
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    .banner__caracteristica
+    {
+        font-size: 1.2rem; 
+    }
+}

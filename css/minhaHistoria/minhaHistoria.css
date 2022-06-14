@@ -1,0 +1,26 @@
+@media screen and (min-width: 0)
+{
+    .minha-historia
+    {
+        padding: 10px 15px;
+    }
+
+}
+
+@media screen and (min-width: 480px)
+{
+    .minha-historia
+    {
+        padding: 20px 30px;
+    }
+
+}
+
+@media screen and (min-width: 960px)
+{
+    .minha-historia
+    {
+        padding: 40px 60px;
+    }
+
+}

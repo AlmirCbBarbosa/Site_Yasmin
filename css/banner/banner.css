@@ -1,0 +1,11 @@
+
+.banner
+{
+    background-image: url('../../imagem/desenhos.png');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;   
+    position: relative;
+    width: 100%      
+}
+
