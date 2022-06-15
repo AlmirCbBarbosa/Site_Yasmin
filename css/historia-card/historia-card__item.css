@@ -1,16 +1,54 @@
 .historia-card__item
 {
-    display: inline-block;
-    height: 200px;
+    cursor: pointer;
+    display: inline-block;    
     list-style: none; 
     margin: 0.5%; 
     position: relative;  
     width: 32%;
 }
 
-.historia-card__item:hover
+@media screen and (min-width: 0)
 {
-    margin: 0.1%;
-    width:32.8%;
-    cursor: pointer;
+    .historia-card__item
+    {
+        margin: 0.5%;         
+        width: 98%;
+    }
+
+    .historia-card__item:hover
+    {
+        margin: 0.1%;
+        width:98.8%;    
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .historia-card__item
+    {
+        margin: 0.5%;         
+        width: 48%;
+    }
+
+    .historia-card__item:hover
+    {
+        margin: 0.1%;
+        width:48.8%;    
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    .historia-card__item
+    {
+        margin: 0.5%;         
+        width: 32%;
+    }
+
+    .historia-card__item:hover
+    {
+        margin: 0.1%;
+        width:32.8%;    
+    }
 }
