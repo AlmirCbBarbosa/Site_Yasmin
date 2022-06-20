@@ -1,3 +1,7 @@
+
+let historias = new Array();
+
+
 class Texto
 {
     #imagem; // contém o endereço da imagem que será colocado na página
@@ -29,6 +33,24 @@ class Texto
         return this.#paragrafos;
     } 
 }
+
+//------------------------textos-------------------------------------------------------------
+
+//                          Objetos: Os Irmão felizes
+
+let osIrmaosFelizes = new Texto('../imagem/capaIrmaoFelizes.png', 'Os irmãos felizes', ['Era uma vez uma menina que se chamava Melissa, ela tinha um irmão que se chamava Matheus.', 'Um dia melissa e Matheus queriam mais um irmãozinho, então eles imploraram para a sua mãe. Tempo depois, sua mãe teve outro filho as crianças ficaram felizes mais não sabiam o nome do irmão e ficaram batendo papo enquanto esperavam os pais escolherem o nome.', 'Depois de quatros horas, os pais chegaram em casa e falaram para as curiosas crianças que o nome de seu querido irmãozinho seria Marcos. Todos ficarão muito feliz.', 'Quando o bebê fez 1 ano ele foi brincar com os irmãos e eles se tornaram as crianças mais felizes do mundo.'])
+
+
+historias.push(osIrmaosFelizes); // matriz com todas as historias criadas
+//-------------------------fim textos---------------------------------------------------------
+
+//------------------------------função--------------------------------------------------------
+function historiaSelecionada(numeroHistoria)
+{
+    
+}
+
+//--------------------------------------------------------------------------------------------
 
 //teste pode apagar
 let texto = new Array();
