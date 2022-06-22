@@ -1,0 +1,20 @@
+{
+  "name": "site_yasmin",
+  "version": "1.0.0",
+  "description": "Site onde será postada histórias e coisas sobre minha querida filha.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlmirCbBarbosa/Site_Yasmin.git"
+  },
+  "author": "Almir de Lima Barbosa",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AlmirCbBarbosa/Site_Yasmin/issues"
+  },
+  "homepage": "https://github.com/AlmirCbBarbosa/Site_Yasmin#readme"
+}
