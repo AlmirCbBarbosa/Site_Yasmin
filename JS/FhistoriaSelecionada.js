@@ -1,4 +1,4 @@
-export function historiaSelecionada(numero)
+export function historiaSelecionada(historias, numero)
 {
     let paginaImagem = document.getElementById('imagem');
     let paginaTitulo = document.getElementById('titulo');
